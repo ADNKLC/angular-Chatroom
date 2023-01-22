@@ -1,0 +1,30 @@
+:host {
+  padding: 32px;
+}
+
+.profile-image > img {
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-image {
+  position: relative;
+  width: 120px;
+  margin: auto;
+}
+
+.profile-image > button {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.form-container {
+  max-width: 400px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
